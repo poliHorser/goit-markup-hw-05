@@ -799,7 +799,7 @@ ul{
   border: 1px solid #212121;
   border-radius: 4px;
   padding-left: 16px;
-  
+
 }
 
 .form-input::placeholder{
@@ -822,8 +822,7 @@ ul{
 }
 
 .modal-title{
-        width: 360px;
-        height: 24px;
+       
        
         font-weight: 500;
         font-size: 16px;
