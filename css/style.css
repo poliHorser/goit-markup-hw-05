@@ -314,9 +314,10 @@ ul{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     position: absolute;
+    max-width: 183px;
+    max-height: 40px;
     
-   
-    margin-bottom: 72px;
+    
 
 }
 .five-ul {
@@ -804,19 +805,18 @@ ul{
 
 
 .form{
-    
-    
+    margin-top: 34px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 16px;
     display: block;
-    
-    
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 8px;
-  border: 0px ;
-  
-  max-width: 408px;
-  max-height: 584px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+    border: 0px ;
+    max-width: 408px;
+    max-height: 584px;
 }
 
 .form-input {
@@ -836,10 +836,7 @@ ul{
 
 
 .form-label{
-    margin-top: 34px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 16px;
+    
     font-size: 12px;
     color: #8E8F99;
     display: flex;
@@ -861,6 +858,41 @@ ul{
         color:var(--title-color);
 }
 
+
+.footer-buton {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--back-but);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    color: #FFFFFF;
+    
+    line-height: 1.5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 24px;
+    margin-right: 120px;
+    margin-bottom: 24px;
+    margin-left: 119px;
+    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    
+    position: absolute;
+    max-width: 169px;
+    max-height: 56px;
+        
+
+
+}
 
 
 
