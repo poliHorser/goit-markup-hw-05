@@ -712,12 +712,9 @@ ul{
     font-size: 12px;
     line-height: 24px;
     display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-    
-        /* WHITE */
-    
-        color: #FFFFFF;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
 
@@ -807,18 +804,21 @@ ul{
 
 
 .form{
-    margin-top: 120px;
+    margin-top: 34px;
     margin-left: 24px;
-    margin-right: 2px;
+    margin-right: 24px;
+    
     display: block;
-    margin-bottom: 136px;
+    margin-bottom: 16px;
     
   display: flex;
   flex-direction: column;
   gap: 12px;
   padding: 8px;
-  border: 1px dashed #212121;
-  max-width: 300px;
+  border: 0px ;
+  
+  max-width: 408px;
+  max-height: 584px;
 }
 
 .form-input {
@@ -838,27 +838,24 @@ ul{
 
 
 .form-label{
+   
+    
     font-size: 12px;
     color: #8E8F99;
     display: flex;
     flex-direction: column;
 }
 
-.contact-form{
-    margin-top: 120px;
-    margin-left: 24px;
-    margin-right: 2px;
-    display: block;
-    margin-bottom: 136px;
-}
+
 
 .modal-title{
-       
+        margin-right: 24px;
         margin-top: 72px;
         margin-left: 24px;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+        max-width: 360px;
         text-align: center;
         letter-spacing: 0.02em;
         color:var(--title-color);
