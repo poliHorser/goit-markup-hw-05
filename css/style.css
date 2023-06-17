@@ -725,6 +725,13 @@ ul{
     margin-left: 80px;
 }
 
+.par-li{
+    display: block;
+    color: var(--footer);
+    width: 264px;
+    height: 40px;
+}
+
 
 /*Modal window*/
 .modal-window{
