@@ -858,7 +858,7 @@ ul{
     padding-top: 14px
 }
 
-.form-input:focus{
+.form-input:focus, .form-input:hover {
     border-color: #4D5AE5;
 }
 
