@@ -863,11 +863,11 @@ ul{
     font-family: "Roboto", sans-serif;
     background-color: var(--back-but);
     font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
         display: flex;
-        align-items: center;
-        text-align: center;
+    align-items: center;
+    text-align: center;
         letter-spacing: 0.04em;
     color: #FFFFFF;
     
@@ -881,9 +881,8 @@ ul{
     margin-bottom: 24px;
     margin-left: 119px;
     
-    flex-direction: row;
     align-items: flex-start;
-    padding: 16px 32px;
+    
     gap: 10px;
     
     position: absolute;
