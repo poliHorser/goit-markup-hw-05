@@ -858,6 +858,10 @@ ul{
     padding-top: 14px
 }
 
+.form-input:focus .input-svg{
+    color: #4D5AE5;
+}
+
 .form-input:focus, .form-input:hover {
     border-color: #4D5AE5;
 }
