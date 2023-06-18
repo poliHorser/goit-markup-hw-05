@@ -853,8 +853,8 @@ ul{
     fill: transparent;
     stroke: #111111;
     position: absolute;
-    left: 19px;
-    top: 14px
+    padding-left: 19px;
+    padding-top: 14px
 }
 
 .form-input:focus{
