@@ -844,8 +844,13 @@ ul{
     color: rgba(46, 47, 66, 0.4);
 }
 
+.input-div-svg{
+    position: relative;
+}
+
 .input-svg{
-    
+    fill: transparent;
+    stroke: #111111;
     position: absolute;
 }
 
@@ -873,7 +878,9 @@ ul{
         letter-spacing: 0.02em;
         color:var(--title-color);
 }
-
+.modal-field{
+    margin-bottom: auto;
+}
 
 
 
