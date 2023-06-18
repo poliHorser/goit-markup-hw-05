@@ -783,12 +783,11 @@ ul{
 
 .btn-svg{
     
-        background-color:#E7E9FC;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    background-color:#E7E9FC;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
