@@ -758,6 +758,7 @@ ul{
     
 }
 
+
 .modal-btn{
     position: absolute;
     top: 24px;
@@ -852,6 +853,8 @@ ul{
     fill: transparent;
     stroke: #111111;
     position: absolute;
+    left: 19px;
+    top: 14px
 }
 
 .form-input:focus{
@@ -878,6 +881,7 @@ ul{
         letter-spacing: 0.02em;
         color:var(--title-color);
 }
+
 
 
 
