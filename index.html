@@ -431,23 +431,26 @@
             <form class="form" name="issue_report_form" autocomplete="off">
                 <label class="form-label">
                     Name
-                    <input class="form-input" type="text" name="name" />
+                    <input class="form-input" type="text" name="user-name" required />
                     
                 </label>
                 <label class="form-label">
                     Phone
-                    <input class="form-input" type="text" name="phone" />
+                    <input class="form-input" type="text" name="user-phone" required/>
                 </label>
                 <label class="form-label">
                     Email
-                    <input class="form-input" type="text" name="email" />
+                    <input class="form-input" type="text" name="user-email" />
                 </label>
                 
                 
                 <label class="form-label">
                     Comment
-                    <textarea class="form-input" name="Comment" placeholder="Text input" rows="5">
+                    <textarea class="form-textarea" name="Comment" placeholder="Text input" rows="5">
                     </textarea>
+
+                <button type="submit" class="footer-buton">Send</button>
+
             </form>
 
            
@@ -458,8 +461,7 @@
             </svg>
         </button>
 
-        <button type="button" class="footer-buton" data-modal-open>Send</button>
-
+        
         
         </div>
         
