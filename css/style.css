@@ -850,6 +850,7 @@ ul{
 }
 
 .input-svg{
+    background-color: #111111;
     fill: transparent;
     stroke: #111111;
     position: absolute;
