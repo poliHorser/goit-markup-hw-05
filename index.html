@@ -431,16 +431,29 @@
             <form class="form" name="issue_report_form" autocomplete="off">
                 <label class="form-label">
                     Name
-                    <input class="form-input" type="text" name="user-name" required />
-                    
+                    <input class="form-input" 
+                    type="text" 
+                    name="user-name" 
+                    required
+                    minlength="2" />
+                <svg class="input-svg" width="13" height="13">
+                    <use href="./images/icons.svg#icon-contact"></use>
+                </svg>
                 </label>
                 <label class="form-label">
                     Phone
-                    <input class="form-input" type="text" name="user-phone" required/>
+                    <input class="form-input" type="tel" name="user-phone" required/>
+                    <svg class="input-svg" width="13" height="13">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
                 </label>
                 <label class="form-label">
                     Email
-                    <input class="form-input" type="text" name="user-email" />
+                    
+                    <input class="form-input" type="email" name="user-email" />
+                    <svg class="input-svg" width="13" height="13">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
                 </label>
                 
                 

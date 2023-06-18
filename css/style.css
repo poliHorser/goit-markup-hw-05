@@ -821,7 +821,7 @@ ul{
   color: #212121;
   border: 1px solid #212121;
   border-radius: 4px;
-  padding-bottom: 24px;
+  padding-left: 24px;
   width: 360px;
   height: 40px;
 
@@ -831,7 +831,7 @@ ul{
     color: #212121;
     border: 1px solid #212121;
     border-radius: 4px;
-    padding-bottom: 24px;
+    padding-left: 24px;
     width: 360px;
     height: 120px;
 }
@@ -840,10 +840,14 @@ ul{
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
+    letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
 
-
+.input-svg{
+    background: #2E2F42;
+    position: absolute;
+}
 
 .form-input:focus{
     border-color: #4D5AE5;
