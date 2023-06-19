@@ -75,8 +75,8 @@ body {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-
-
+    width: 100%;
+    color: #404bbf;
 }
 
 .current {
@@ -109,7 +109,8 @@ body {
     margin-bottom: 0;
     padding-left: 0;
     display: flex;
-    gap: 40px
+    gap: 40px;
+    justify-content: center;
 }
 
 ul{
