@@ -67,7 +67,7 @@ body {
     
 }
 
-.header-menu-link::after{
+.current::after{
     content:"";
     position: absolute;
     left: 0;
@@ -77,6 +77,11 @@ body {
     border-radius: 2px;
 
 
+}
+
+.current {
+    position: relative;
+    color: #404bbf;
 }
 
 .header-menu-span {
@@ -121,7 +126,7 @@ ul{
     letter-spacing: 0.02em;
     color:var(--title-color);
     position: relative;
-    color: #404bbf;
+    
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
@@ -177,7 +182,8 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    height: 600px;
+    margin: 0 auto;
     
 }
 
@@ -304,6 +310,12 @@ ul{
         
 }
 
+.main-portfolio-button{
+    margin-bottom: 72px;
+    gap: 24px;
+    
+}
+
 
 .five-title{
     color: #2E2F42;
@@ -313,7 +325,7 @@ ul{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    position: absolute;
+    
     max-width: 183px;
     max-height: 40px;
     
@@ -336,10 +348,7 @@ ul{
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.five-icon{
-    fill: currentColor;
-    
-}
+
 
 
 
@@ -360,7 +369,14 @@ ul{
     border-color: #404bbf;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
- 
+
+.five-link:hover .five-icon,
+.five-link:focus .five-icon {
+    color: #404bbf;
+    border-color: #404bbf;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .section-wo-im{
     width: 264px;
     display: flex;
@@ -496,6 +512,9 @@ ul{
     border-radius: 0px 0px 4px 4px;
 
 }
+.five-icon{
+    fill: currentColor;
+}
 
 .main-portfolio-but {
     font-family: "Roboto", sans-serif;
@@ -510,7 +529,10 @@ ul{
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -594,18 +616,7 @@ ul{
     padding-bottom: 120px;
 }
 
-.main-portfolio-but{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
-}
 
 .footer-a {
     width: 100%;
@@ -633,9 +644,9 @@ ul{
 
 
 .footer-first{
-    align-items: baseline;
+    
     margin-right: 120px;
-    display: flex;
+    
 }
 
 .footer-par{
@@ -769,7 +780,11 @@ ul{
 
 /*Modal window*/
 .modal-window{
-
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+        
     position: fixed;
     top: 0;
     left: 0;
@@ -778,6 +793,11 @@ ul{
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-field{
+    margin-bottom: 8px;
+}
+
 .modal{
     
      transform: translate(-50%, -50%) scale(1); transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -856,13 +876,21 @@ ul{
 }
 
 .form-input { 
-  color: #212121;
-  border: 1px solid #212121;
-  border-radius: 4px;
-  padding-left: 24px;
-  width: 360px;
-  height: 40px;
+    color: #212121;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    padding-left: 38px;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    width: 100%;
+    height: 40px;
+
+}
+
+.form-input:focus{
+    border-color: #4D5AE5;
 }
 
 .form-textarea{
@@ -891,8 +919,11 @@ ul{
     fill: transparent;
     stroke: #111111;
     position: absolute;
-    padding-left: 19px;
-    padding-top: 14px
+    padding-left: 16px;
+    top: 50%;
+    transform: translate(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -903,17 +934,20 @@ ul{
 
 
 .form-label{
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     font-size: 12px;
     color: #8E8F99;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin-bottom: 4px;
+    
 }
 
 .modal-title{
-        margin-bottom: 34px;
+        margin-bottom: 16px;
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         width: 360px;
         text-align: center;
         letter-spacing: 0.02em;
