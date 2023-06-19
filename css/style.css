@@ -318,7 +318,7 @@ ul{
 }
 
 
-.five-title{
+.five-title {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
@@ -326,11 +326,8 @@ ul{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    
-    max-width: 183px;
-    max-height: 40px;
-    
-    
+
+    margin-bottom: 72px;
 
 }
 .five-ul {
