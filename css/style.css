@@ -371,12 +371,7 @@ ul{
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.five-link:hover .five-icon,
-.five-link:focus .five-icon {
-    color: #404bbf;
-    border-color: #404bbf;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 
 .section-wo-im{
     width: 264px;
@@ -512,9 +507,6 @@ ul{
 .im-sec-for{
     border-radius: 0px 0px 4px 4px;
 
-}
-.five-icon{
-    fill: currentColor;
 }
 
 .main-portfolio-but {
