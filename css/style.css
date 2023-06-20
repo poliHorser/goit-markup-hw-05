@@ -858,10 +858,10 @@ ul{
     display: block;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    
     border: 0px ;
-    width: 360px;
-    height: 584px;
+    
+    
 }
 
 .form-input { 
@@ -1014,6 +1014,7 @@ ul{
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
+    margin: 0 auto;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
