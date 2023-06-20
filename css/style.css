@@ -13,6 +13,7 @@ img {
     --white: #f4f4fd;
     --footer: #FFFFFF;
     --check: #8e8f99;
+    --btn: #404bbf;
 
 }
 
@@ -889,11 +890,11 @@ ul{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    padding: 8px 16px;
+    
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    padding: 8px 16px;
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -955,6 +956,11 @@ ul{
     margin-bottom: 4px;
     
 }
+.span-svg:checked{
+    background-color: var(--btn);
+    border: none;
+    fill: var(--white);
+}
 
 .modal-title{
         margin-bottom: 16px;
@@ -1015,7 +1021,9 @@ ul{
 
 
 }
-
+.form-label-com{
+    margin-bottom: 16px;
+}
 
 
 
