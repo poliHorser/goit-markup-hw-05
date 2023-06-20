@@ -1005,6 +1005,7 @@ ul{
 
 .footer-link{
     color: var(--back-but);
+    text-decoration: underline;
 }
 
 .footer-buton{
