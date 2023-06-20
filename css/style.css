@@ -773,7 +773,7 @@ ul{
 
 .sb-svg{
     margin-left: 16px;
-    background-color: var(--footer);
+    fill: var(--footer);
     padding-left: 16px;
 
 }
