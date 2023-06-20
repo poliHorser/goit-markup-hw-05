@@ -840,7 +840,7 @@ ul{
 }
 
 .btn-svg{
-    
+    color: #111111;
     background-color:#E7E9FC;
     border-radius: 50%;
     display: flex;
