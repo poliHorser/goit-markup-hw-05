@@ -772,11 +772,10 @@ ul{
 }
 
 .sb-svg{
-    width: 24px;
-    height: 24px;
+    
     margin-left: 16px;
     fill: var(--footer);
-    padding-left: 16px;
+    
 
 }
 
