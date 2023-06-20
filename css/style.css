@@ -773,7 +773,9 @@ ul{
 
 .sb-svg{
     margin-left: 16px;
-    color: var(--footer);
+    background-color: var(--footer);
+    padding-left: 16px;
+
 }
 
 /*Modal window*/
