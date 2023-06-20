@@ -968,7 +968,7 @@ ul{
     margin-bottom: 4px;
     
 }
-.span-svg:checked + span{
+.check-input:checked + span{
     background-color: var(--btn);
     border: none;
     fill: var(--white);
