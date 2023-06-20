@@ -773,10 +773,7 @@ ul{
 
 /*Modal window*/
 .modal-window{
-    padding-bottom: 72px;
-    padding-top: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
+    
       
     position: fixed;
     top: 0;
@@ -792,7 +789,10 @@ ul{
 }
 
 .modal{
-    
+    padding-bottom: 72px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
      transform: translate(-50%, -50%) scale(1); transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
      width: 408px;
      min-height: 584px;
@@ -809,10 +809,10 @@ ul{
 
 
 .modal-btn{
-    position: absolute;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-right: 24px;
+    position: absolute; 
+    top: 24px; 
+    right: 24px;
+    
     width: 24px;
     height: 24px;
     border-radius: 50%;
