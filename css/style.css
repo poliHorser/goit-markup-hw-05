@@ -771,6 +771,10 @@ ul{
     gap: 24px;
 }
 
+.sb-svg{
+    margin-left: 16px;
+    color: var(--footer);
+}
 
 /*Modal window*/
 .modal-window{
